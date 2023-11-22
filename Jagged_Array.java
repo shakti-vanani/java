@@ -1,5 +1,5 @@
 
-    public class Jagged_Array {
+    public class jagged_array {
         public static void main(String[] args) {
             // Creating a jagged array
             int[][] jArray = new int[3][];
