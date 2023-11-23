@@ -1,28 +1,27 @@
 // Define an enum named Day
 enum Dayofweek {
-    SUNDAY,
-    MONDAY,
-    TUESDAY,
-    WEDNESDAY,
-    THURSDAY,
-    FRIDAY,
-    SATURDAY
+    Sunday,
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday
 }
-
 public class Enum {
     public static void main(String[] args) {
         // Using the Day enum
-        Dayofweek today = Dayofweek.WEDNESDAY;
+        Dayofweek today = Dayofweek.Wednesday;
 
         // Switch statement with enum
         switch (today) {
-            case MONDAY:
+            case Monday:
                 System.out.println("It's the first day of the week");
                 break;
-            case WEDNESDAY:
+            case Wednesday:
                 System.out.println("It's the middle of the week");
                 break;
-            case FRIDAY:
+            case Friday:
                 System.out.println("It's almost the weekend");
                 break;
             default:
