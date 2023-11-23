@@ -1,5 +1,5 @@
     import java.util.Scanner;
-    public class operatorExample {
+    public class operator_Example {
         public static void main(String[] args) {
             Scanner Scanner=new Scanner(System.in);
             // Arithmetic operators
@@ -23,25 +23,24 @@
             System.out.println("Is no1 less than or equal to no2? " + (no1 <= no2));
     
             // Logical operators
-            boolean isTrue = true;
-            boolean isFalse = false;
+            boolean b1 = true;
+            boolean b2 = false;
     
             System.out.println("\nLogical Operators:");
-            System.out.println("Logical AND: " + (isTrue && isFalse));
-            System.out.println("Logical OR: " + (isTrue || isFalse));
-            System.out.println("Logical NOT: " + (!isTrue));
+            System.out.println("Logical AND: " + (b1 && b2));
+            System.out.println("Logical OR: " + (b1 || b2));
+            System.out.println("Logical NOT: " + (!b1));
     
             // Increment and Decrement operators
             int count;
             System.out.println("enter count=");
             count=Scanner.nextInt();
             System.out.println("\nIncrement and Decrement Operators:");
-            System.out.println("Initial count: " + count);
+            System.out.println("Before increment or Decrement count=" + count);
             count++;
             System.out.println("After increment: " + count);
             count--;
             System.out.println("After decrement: " + count);
-
             Scanner.close();
         }
     }

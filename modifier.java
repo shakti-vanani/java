@@ -16,9 +16,8 @@ public class modifier {
         // Accessing public members
         System.out.println("Public Variable: " + obj.publicVar);
         obj.publicdemo();
-        // Accessing private members (not allowed outside the class)
-        // System.out.println("Private Variable: " + obj.privateVariable); //
-        // Compilation error
-        // obj.privateMethod(); // Compilation error
+        /*  Accessing private members (not allowed outside the class)
+         System.out.println("Private Variable: " + obj.privateVariable); //Compilation error
+         obj.privateMethod();  //Compilation error*/
     }
 }
