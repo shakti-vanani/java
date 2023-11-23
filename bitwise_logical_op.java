@@ -1,26 +1,25 @@
 public class bitwise_logical_op {
     public static void main(String[] args) {
-        // Assume we have two integer values
         int a = 5; // binary: 0101
         int b = 3; // binary: 0011
 
         // Bitwise AND
-        int andResult = a & b; // binary: 0001
-        System.out.println("Bitwise AND: " + andResult);
+        int andAns = a & b; // binary: 0001
+        System.out.println("Bitwise AND: " + andAns);
 
         // Bitwise OR
-        int orResult = a | b; // binary: 0111
-        System.out.println("Bitwise OR: " + orResult);
+        int orAns = a | b; // binary: 0111
+        System.out.println("Bitwise OR: " + orAns);
 
         // Bitwise XOR
-        int xorResult = a ^ b; // binary: 0110
-        System.out.println("Bitwise XOR: " + xorResult);
+        int xorAns = a ^ b; // binary: 0110
+        System.out.println("Bitwise XOR: " + xorAns);
 
         // Bitwise NOT (Unary)
-        int notResultA = ~a; // binary: 1111_1111_1111_1111_1111_1111_1111_1010
-        int notResultB = ~b; // binary: 1111_1111_1111_1111_1111_1111_1111_1100
+        int notAnsA = ~a; // binary: 1111_1111_1111_1111_1111_1111_1111_1010
+        int notAnsB = ~b; // binary: 1111_1111_1111_1111_1111_1111_1111_1100
 
-        System.out.println("Bitwise NOT of a: " + notResultA);
-        System.out.println("Bitwise NOT of b: " + notResultB);
+        System.out.println("Bitwise NOT of a: " + notAnsA);
+        System.out.println("Bitwise NOT of b: " + notAnsB);
     }
 }
