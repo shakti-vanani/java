@@ -5,7 +5,7 @@ public class modifier {
     private int i=20;
     // Public method accessible from outside the class
     public void publicMethod() {
-        System.out.println("This is a public method."+publicVariable);
+        System.out.println("This is a public method="+publicVariable);
     }
      // Private method accessible only within the class
     public void privateMethod(){
