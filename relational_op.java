@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class relational_op {
      public static void main(String[] args) {
         Scanner Scanner = new Scanner(System.in);
-        // Arithmetic operators
+        // Relational operators
         int no1, no2;
         System.out.println("enter no1=");
         no1 = Scanner.nextInt();
