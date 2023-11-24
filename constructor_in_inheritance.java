@@ -12,10 +12,12 @@ class Person {
         System.out.println("Person: Name= " + name + ", Age= " + age);
     }
 }
+
 class Student extends Person {
     private int rollno;
 
     // Parameterized constructor in the subclass
+
     public Student(String name, int age, int studentId) {
         // Explicitly call the constructor of the superclass using super()
         super(name, age);
@@ -25,10 +27,11 @@ class Student extends Person {
 
     // Additional method in the subclass
     public void displayStudentData() {
-        System.out.println("Student: StudentId - " + rollno);
+        System.out.println("Student: StudentId=" + rollno);
     }
     
 }
+
 public class constructor_in_inheritance {
     public static void main(String[] args) {
         // Creating an object of the subclass Student
