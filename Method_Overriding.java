@@ -1,10 +1,10 @@
 // Superclass
-class Person {
+class People {
     private String name;
     private int age;
 
     // Parameterized constructor
-    public Person(String name, int age) {
+    public People(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -16,7 +16,7 @@ class Person {
 }
 
 // Subclass extending Person
-class Employee extends Person {
+class Employee extends People {
     private String empId;
 
     // Parameterized constructor
@@ -31,7 +31,7 @@ class Employee extends Person {
     public void PrintData() {
         // Call the PrintData() method of the superclass using super
         super.PrintData();
-        System.out.println("Employee: Employee ID - " + empId);
+        System.out.println("Employee: Employee ID= " + empId);
     }
 }
 
