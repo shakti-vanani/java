@@ -4,6 +4,7 @@ class Car {
     String brand;
     String model;
     int year;
+    public Object make;
 
     // Constructor (used to initialize object state)
     public Car(String brand, String model, int year) {
@@ -18,6 +19,7 @@ class Car {
         System.out.println("Year: " + year);
     }
 }
+
 public class car_example {
     public static void main(String[] args) {
         // Creating objects (instances) of the Car class
