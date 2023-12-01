@@ -1,4 +1,4 @@
-class Counter {
+class Calculation{
     private int count = 0;
 
     public synchronized void increment() {
@@ -12,7 +12,7 @@ class Counter {
 
 public class Synchronized_Method {
     public static void main(String[] args) {
-        Counter counter1 = new Counter();
+        Calculation counter1 = new Calculation();
 
         Thread thread1 = new Thread(() -> {
             for (int i = 0; i < 500; i++) {

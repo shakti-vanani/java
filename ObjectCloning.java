@@ -1,8 +1,8 @@
-class Person implements Cloneable {
+class person implements Cloneable {
     private String name;
     private int age;
 
-    public Person(String nm, int age) {
+    public person(String nm, int age) {
         this.name =nm;
         this.age = age;
     }
@@ -39,10 +39,10 @@ public class ObjectCloning{
     public static void main(String[] args) {
         try {
             // Create an object
-            Person originalPerson = new Person("John", 25);
+            person originalPerson = new person("John", 25);
 
             // Clone the object
-            Person clonedPerson = (Person) originalPerson.clone();
+            person clonedPerson = (person) originalPerson.clone();
 
             // Modify the cloned object
             clonedPerson.setName("Jane");
