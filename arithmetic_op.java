@@ -12,7 +12,8 @@ public class arithmetic_op {
         System.out.println("Addition: " + (no1 + no2));
         System.out.println("Subtraction: " + (no1 - no2));
         System.out.println("Multiplication: " + (no1 * no2));
-        System.out.println("Division: " + (float)(no1 / no2));
+        float no=(float)no1/no2;
+        System.out.println("Division: " +no);
         System.out.println("Modulus: " + (no1 % no2));
         Scanner.close();
     }
